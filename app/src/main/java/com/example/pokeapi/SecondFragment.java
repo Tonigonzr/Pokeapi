@@ -46,6 +46,9 @@ public class SecondFragment extends Fragment {
        }
         }
 
+        public void Refresh(){
+
+        }
     @Override
     public void onDestroyView() {
         super.onDestroyView();

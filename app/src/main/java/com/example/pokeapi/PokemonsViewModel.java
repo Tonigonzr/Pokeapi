@@ -18,7 +18,7 @@ import java.util.concurrent.Executors;
 public class PokemonsViewModel extends AndroidViewModel {
 
     private final Application app;
-    private MutableLiveData<List<Pokemon>> pokemons;
+    private MutableLiveData<List<Pokemon>> pokemons ;
 
     public PokemonsViewModel(@NonNull Application application) {
         super(application);
